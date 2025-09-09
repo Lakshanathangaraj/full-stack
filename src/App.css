@@ -1,0 +1,53 @@
+.container {
+  padding: 20px;
+}
+
+.vertical-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.menu-item {
+  font-size: 18px;
+  padding: 10px;
+  background-color: #e0e0e0;
+  text-decoration: none;
+  color: black;
+  border-radius: 8px;
+  width: 200px;
+}
+
+.menu-item:hover {
+  background-color: #c0c0c0;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 200px;
+  border-radius: 10px;
+  text-align: center;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.back {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #007bff;
+}
